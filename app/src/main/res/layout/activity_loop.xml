@@ -18,7 +18,6 @@
             android:id="@+id/text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scrollbarAlwaysDrawVerticalTrack="true"
             android:textSize="20sp"
             />
 
@@ -32,7 +31,7 @@
             android:id="@+id/button_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="counter"/>
+            android:text="async my task, yo"/>
         <Button
             android:id="@+id/button_login"
             android:layout_width="match_parent"
