@@ -12,11 +12,14 @@
         <activity android:name=".LoopActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intetne.action.LIST"/>
+                <action android:name="android.intent.action.LOGIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ListActivity"></activity>
     </application>
 
 </manifest>
