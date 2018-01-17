@@ -49,15 +49,9 @@ public class LoginActivity extends AppCompatActivity {
                     Intent intent = new Intent(LoginActivity.this, ListActivity.class);
                     intent.putExtra("currentUser", emailInput.getText().toString());
                     startActivity(intent);
-                } else {
-                    emailInput.setError("Invalid Email");
-                    passwordInput.setError("Invalid Password");
-                    emailInput.requestFocus();
-                    passwordInput.requestFocus();
                 }
             }
         });
-
         if (login.getBoolean("isChecked", false)) {
             emailInput.setText(login.getString("username", null));
             passwordInput.setText(login.getString("password", null));
